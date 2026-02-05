@@ -160,15 +160,5 @@ void L1TSC82ProngJetModel_v0(
     nnet::save_layer_output<result_t>(layer25_out, "output_sigmoid_activation", N_LAYER_23);
 #endif
 
-for (int i = 0; i < 8*20; i++) {
-    std::cout << (double)input_layer[i] << ",";
-}
-
-for (int i = 0; i < 1; i++) {
-    std::cout << layer25_out[i];
-}
-std::cout << std::endl;
-
-
 }
 } // namespace hls4ml_L1TSC82ProngJetModel_v0
