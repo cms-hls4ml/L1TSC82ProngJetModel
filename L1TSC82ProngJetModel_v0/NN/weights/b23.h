@@ -6,6 +6,7 @@
 #ifndef B23_H_
 #define B23_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 bias23_t b23[1];
 #else
@@ -14,3 +15,4 @@ bias23_t bb23[1] = {0.171875};
 #endif
 
 #endif
+}

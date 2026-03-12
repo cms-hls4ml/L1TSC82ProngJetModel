@@ -6,6 +6,7 @@
 #ifndef B2_H_
 #define B2_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 batch_normalization_bias_t b2[20];
 #else
@@ -14,3 +15,4 @@ batch_normalization_bias_t bb2[20] = {-0.474594891071, -0.962305843830, -1.51219
 #endif
 
 #endif
+}

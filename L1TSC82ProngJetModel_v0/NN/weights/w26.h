@@ -6,6 +6,7 @@
 #ifndef W26_H_
 #define W26_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 phi1_weight_t w26[1280];
 #else
@@ -14,3 +15,4 @@ phi1_weight_t ww26[1280] = {-0.1931403, 0.4736578, 0.1220699, 0.6591892, 0.98965
 #endif
 
 #endif
+}

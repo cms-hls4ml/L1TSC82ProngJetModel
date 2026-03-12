@@ -37,7 +37,7 @@
 #include "weights/w23.h"
 #include "weights/b23.h"
 
-
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 // hls-fpga-machine-learning insert layer-config
 // batch_normalization
 struct config2 : nnet::batchnorm_config {
@@ -387,6 +387,6 @@ struct sigmoid_config25 : nnet::activ_config {
     typedef output_sigmoid_activation_table_t table_t;
 };
 
-
+} // namespace hls4ml_L1TSC82ProngJetModel_v0{
 
 #endif

@@ -7,6 +7,8 @@
 #include <cstddef>
 #include <cstdio>
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
+
 // hls-fpga-machine-learning insert numbers
 #define N_INPUT_1_1 8
 #define N_INPUT_2_1 20
@@ -100,3 +102,4 @@ typedef ap_fixed<18,8> output_sigmoid_activation_table_t;
 
 
 #endif
+} // namespace hls4ml_L1TSC82ProngJetModel_v0{

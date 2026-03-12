@@ -6,6 +6,7 @@
 #ifndef W27_H_
 #define W27_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 phi2_weight_t w27[4096];
 #else
@@ -14,3 +15,4 @@ phi2_weight_t ww27[4096] = {-0.1706379, -0.1958011, -0.1546847, 0.0000339, -0.24
 #endif
 
 #endif
+}

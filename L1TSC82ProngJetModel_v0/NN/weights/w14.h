@@ -6,6 +6,7 @@
 #ifndef W14_H_
 #define W14_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 weight14_t w14[2048];
 #else
@@ -14,3 +15,4 @@ weight14_t ww14[2048] = {0.0625000, 0.3046875, -0.2578125, 0.4218750, -0.4062500
 #endif
 
 #endif
+}

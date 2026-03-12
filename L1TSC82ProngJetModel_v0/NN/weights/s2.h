@@ -6,6 +6,7 @@
 #ifndef S2_H_
 #define S2_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 batch_normalization_scale_t s2[20];
 #else
@@ -14,3 +15,4 @@ batch_normalization_scale_t ss2[20] = {0.010384426452, 1.845541596413, 0.8164249
 #endif
 
 #endif
+}

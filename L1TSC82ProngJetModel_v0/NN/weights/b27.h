@@ -6,6 +6,7 @@
 #ifndef B27_H_
 #define B27_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 phi2_bias_t b27[64];
 #else
@@ -14,3 +15,4 @@ phi2_bias_t bb27[64] = {0.1481510, -0.1325272, -0.0189867, -0.0587842, -0.136225
 #endif
 
 #endif
+}

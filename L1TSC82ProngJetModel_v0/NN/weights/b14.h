@@ -6,6 +6,7 @@
 #ifndef B14_H_
 #define B14_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 bias14_t b14[64];
 #else
@@ -14,3 +15,4 @@ bias14_t bb14[64] = {-0.0078125, 0.0859375, -0.0703125, 0.0937500, -0.1093750, -
 #endif
 
 #endif
+}

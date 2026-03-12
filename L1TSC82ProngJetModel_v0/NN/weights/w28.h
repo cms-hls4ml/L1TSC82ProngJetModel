@@ -6,6 +6,8 @@
 #ifndef W28_H_
 #define W28_H_
 
+
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 phi3_weight_t w28[2048];
 #else
@@ -14,3 +16,4 @@ phi3_weight_t ww28[2048] = {-0.0807662, -0.1908193, -0.0227161, -0.2601125, 0.09
 #endif
 
 #endif
+}

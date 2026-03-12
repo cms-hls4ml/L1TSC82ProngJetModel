@@ -6,6 +6,7 @@
 #ifndef B28_H_
 #define B28_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 phi3_bias_t b28[32];
 #else
@@ -14,3 +15,4 @@ phi3_bias_t bb28[32] = {-0.1825197, -0.2922180, -0.4778038, 0.0877416, -0.555738
 #endif
 
 #endif
+}

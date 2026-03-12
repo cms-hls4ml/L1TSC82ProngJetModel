@@ -6,6 +6,7 @@
 #ifndef W23_H_
 #define W23_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 weight23_t w23[16];
 #else
@@ -14,3 +15,4 @@ weight23_t ww23[16] = {0.406250, -0.734375, -0.531250, 0.375000, 0.375000, -0.43
 #endif
 
 #endif
+}

@@ -6,6 +6,7 @@
 #ifndef B20_H_
 #define B20_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 bias20_t b20[16];
 #else
@@ -14,3 +15,4 @@ bias20_t bb20[16] = {-0.0390625, 0.0546875, -0.0312500, -0.0234375, 0.0546875, -
 #endif
 
 #endif
+}

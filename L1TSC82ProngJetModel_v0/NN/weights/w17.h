@@ -6,6 +6,7 @@
 #ifndef W17_H_
 #define W17_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 weight17_t w17[2048];
 #else
@@ -14,3 +15,4 @@ weight17_t ww17[2048] = {-0.0390625, 0.2656250, 0.0468750, 0.1562500, 0.3750000,
 #endif
 
 #endif
+}

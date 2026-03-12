@@ -6,6 +6,7 @@
 #ifndef B17_H_
 #define B17_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 bias17_t b17[32];
 #else
@@ -14,3 +15,4 @@ bias17_t bb17[32] = {0.0156250, 0.0781250, 0.1093750, 0.1015625, 0.2109375, -0.0
 #endif
 
 #endif
+}

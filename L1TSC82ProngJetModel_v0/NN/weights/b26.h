@@ -6,6 +6,7 @@
 #ifndef B26_H_
 #define B26_H_
 
+namespace hls4ml_L1TSC82ProngJetModel_v0{
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
 phi1_bias_t b26[64];
 #else
@@ -14,3 +15,4 @@ phi1_bias_t bb26[64] = {0.0122800, -0.1123863, 0.0087074, 0.0730585, -0.0867518,
 #endif
 
 #endif
+}
